@@ -3,8 +3,10 @@ const Emp = require("../model/Emp");
 // Create Emp
 exports.createEmp = async (req, res) => {
     try {
+        console.log("Adding new employee");
         const { empId, empName, empSkills } = req.body;
         const emp = new Emp({ empId, empName, empSkills });
+        console.log("New emp : ",emp);
         await emp.save();
         res.json(emp);
     } catch (error) {
