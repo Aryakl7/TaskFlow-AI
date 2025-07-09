@@ -12,7 +12,7 @@ export const EmployeeManagement = () => {
 
         try {
             console.log("Adding New Emp...");
-            const res = await axios.post("http://localhost:5500/api/emp/create", { empId, empName, empSkills });
+            const res = await axios.post("http://localhost:5501/api/emp/create", { empId, empName, empSkills });
             console.log("Emp Added successfully...");
             setEmpId("");
             setEmpName("");

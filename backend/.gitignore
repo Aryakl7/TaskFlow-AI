@@ -1,0 +1,37 @@
+# Dependencies
+/node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-error.log
+yarn-debug.log
+pnpm-debug.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+
+.env
+
+jira-app-ai.json
+
+# IDE and Editor Directories
+.idea/
+.vscode/
+*.suo
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Optional build directory
+/dist
+/build
+
+# Optional test runner output
+/coverage
